@@ -1,0 +1,12 @@
+[mysql]
+mysql.asifraza.online
+
+[backend]
+backend.asifraza.online
+
+[frontend]
+frontend.asifraza.online
+
+[all:vars]
+ansible_user=ec2-user
+ansible_password=DevOps321
