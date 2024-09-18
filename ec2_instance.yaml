@@ -9,7 +9,7 @@
     - mysql
     - backend
     - frontend
-    zone: asifraza.online #replace your zone
+    zone:  asifraza.online #replace your zone
   tasks:
   - name: create ec2 instance
     amazon.aws.ec2_instance:
