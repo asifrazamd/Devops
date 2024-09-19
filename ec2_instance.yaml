@@ -11,13 +11,6 @@
     - frontend
     zone:  asifraza.online #replace your zone
   tasks:
-  - name: Install botocore and boto3
-  become: yes
-  package:
-    name:
-      - python3-botocore
-      - python3-boto3
-    state: present
   - name: create ec2 instance
     amazon.aws.ec2_instance:
       name: "{{ item }}"
