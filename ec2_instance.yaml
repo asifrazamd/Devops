@@ -3,7 +3,7 @@
   connection: local
   vars:
     subnet_id: subnet-0f94e08b8d36a75fe # replace with your subnet id
-    sg_id: "sg-033987c3e772833a2" # replace with your security group id
+    sg_id: "sg-0567cde588ffc3168" # replace with your security group id
     ami_id: "ami-09c813fb71547fc4f" # replace with your image id
     instances:
     - mysql
